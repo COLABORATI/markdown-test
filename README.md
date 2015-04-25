@@ -3,10 +3,10 @@ playground for testing github markdown
 
 Unfortunately [GFM](https://help.github.com/articles/github-flavored-markdown/) does not support table colspans, what makes it usage a little bit probelmatic. It is , however, possible to use HTML tables - yes, of course, we never wanted to type tables again and so we invented a cool markdown alternative, but, hey, why not implement just a subset? At least there still needs to be something left to annoy people!
 
-A big HTML table might look like this: 
+## A Big HTML Table 
 view-source: https://www.process-one.net/en/ejabberd/protocols/
 
-    <table class="table table-striped table-bordered">
+<table class="table table-striped table-bordered">
         <tbody>
             <thead>
 
