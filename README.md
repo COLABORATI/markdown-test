@@ -4,12 +4,12 @@ playground for testing github markdown
 Unfortunately [GFM](https://help.github.com/articles/github-flavored-markdown/) does not support table colspans, what makes it usage a little bit probelmatic. It is , however, possible to use HTML tables - yes, of course, we never wanted to type tables again and so we invented a cool markdown alternative, but, hey, why not implement just a subset? At least there still needs to be something left to annoy people!
 
 ## A Big HTML Table 
-view-source: https://www.process-one.net/en/ejabberd/protocols/
+- view-source: https://www.process-one.net/en/ejabberd/protocols/
 
+```html
 <table class="table table-striped table-bordered">
         <tbody>
             <thead>
-
                 <th width="10%">Reference</th>
                 <th width="20%">Title</th>
                 <th width="25%">Description</th>
@@ -18,11 +18,9 @@ view-source: https://www.process-one.net/en/ejabberd/protocols/
                 <th width="15%">MongooseIM</th>
             </thead>
             <tr>
-
                 <th align="left" colspan="6">Core XMPP specifications</th>
             </tr>
             <tr>
-
                 <td>RFC-3920</td>
                 <td>XMPP: Core</td>
                 <td>XMPP Core mechanisms and routing</td>
@@ -31,7 +29,6 @@ view-source: https://www.process-one.net/en/ejabberd/protocols/
                 <td>?</td>
             </tr>
             <tr>
-
                 <td>RFC-3921</td>
                 <td>XMPP: Instant Messaging and Presence</td>
                 <td>XMPP IM and presence</td>
@@ -40,7 +37,6 @@ view-source: https://www.process-one.net/en/ejabberd/protocols/
                 <td>?</td>
             </tr>
             <tr>
-
                 <td>RFC-6120</td>
                 <td>XMPP: Core</td>
                 <td>XMPP Core mechanisms and routing (update)</td>
@@ -49,7 +45,6 @@ view-source: https://www.process-one.net/en/ejabberd/protocols/
                 <td>?</td>
             </tr>
             <tr>
-
                 <td>RFC-6121</td>
                 <td>XMPP: Instant Messaging and Presence</td>
                 <td>XMPP IM and presence (update)</td>
@@ -58,7 +53,6 @@ view-source: https://www.process-one.net/en/ejabberd/protocols/
                 <td>?</td>
             </tr>
             <tr>
-
                 <td>RFC-6122</td>
                 <td>XMPP: Address Format</td>
                 <td>Format for user and services addresses</td>
@@ -67,11 +61,9 @@ view-source: https://www.process-one.net/en/ejabberd/protocols/
                 <td>?</td>
             </tr>
             <tr>
-
                 <th align="left" colspan="6">Server compliance</th>
             </tr>
             <tr>
-
                 <td>XEP-0212</td>
                 <td>XMPP Basic Server 2008</td>
                 <td></td>
@@ -80,7 +72,6 @@ view-source: https://www.process-one.net/en/ejabberd/protocols/
                 <td>?</td>
             </tr>
             <tr>
-
                 <td>XEP-0216</td>
                 <td>XMPP Intermediate Server 2008</td>
                 <td></td>
@@ -969,4 +960,5 @@ view-source: https://www.process-one.net/en/ejabberd/protocols/
                 <td>?</td>
             </tr>
         </tbody>
-    </table>
+</table>
+```
